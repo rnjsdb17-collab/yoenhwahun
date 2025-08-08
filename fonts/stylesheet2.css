@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gabia Gosran';
+    src: url('GabiaGosran-Regular.eot');
+    src: url('GabiaGosran-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GabiaGosran-Regular.woff2') format('woff2'),
+        url('GabiaGosran-Regular.woff') format('woff'),
+        url('GabiaGosran-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

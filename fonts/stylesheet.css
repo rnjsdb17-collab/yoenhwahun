@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    src: url('KoPubWorldBatangBold.eot');
+    src: url('KoPubWorldBatangBold.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldBatangBold.woff2') format('woff2'),
+        url('KoPubWorldBatangBold.woff') format('woff'),
+        url('KoPubWorldBatangBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    src: url('KoPubWorldBatangMedium.eot');
+    src: url('KoPubWorldBatangMedium.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldBatangMedium.woff2') format('woff2'),
+        url('KoPubWorldBatangMedium.woff') format('woff'),
+        url('KoPubWorldBatangMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    src: url('KoPubWorldBatangLight.eot');
+    src: url('KoPubWorldBatangLight.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldBatangLight.woff2') format('woff2'),
+        url('KoPubWorldBatangLight.woff') format('woff'),
+        url('KoPubWorldBatangLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumMedium.eot');
+    src: url('KoPubWorldDotumMedium.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumMedium.woff2') format('woff2'),
+        url('KoPubWorldDotumMedium.woff') format('woff'),
+        url('KoPubWorldDotumMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumBold.eot');
+    src: url('KoPubWorldDotumBold.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumBold.woff2') format('woff2'),
+        url('KoPubWorldDotumBold.woff') format('woff'),
+        url('KoPubWorldDotumBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumLight.eot');
+    src: url('KoPubWorldDotumLight.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumLight.woff2') format('woff2'),
+        url('KoPubWorldDotumLight.woff') format('woff'),
+        url('KoPubWorldDotumLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
