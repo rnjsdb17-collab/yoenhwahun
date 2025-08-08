@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연화헌</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- 심플리 스크롤 css -->
+    <link rel="stylesheet" href="./css/jquery.simplyscroll.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- aos css(내 css보다 위에 넣기) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- 돋움 폰트 css -->
+    <link rel="preload" href="./fonts/KoPubWorldDotumMedium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/KoPubWorldDotumBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/KoPubWorldDotumLight.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- 내 css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- 헤더메뉴 -->
+    <div id="header">
+        <div class="inner">
+            <h1>
+                <a href="#main_visual"> <img src="./img/headerlogo.svg" alt="헤더로고"></a>
+            </h1>
+            <div class="nav">
+                <!-- 상단메뉴 -->
+                <ul class="top_link">
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+                <!-- 상단메뉴 끝 -->
+                <ul class="gnb">
+                    <li><a href="#brand">브랜드 소개</a></li>
+                    <li><a href="#menu">음식상품</a>
+                        <div class="sub">
+                            <ul class="sub_in">
+                                <li><a href="#">전체 메뉴</a></li>
+                                <li><a href="#">시그니처 메뉴</a></li>
+                                <li><a href="#">시즌 메뉴</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#cooking1">쿠킹클래스</a>
+                        <div class="sub">
+                            <ul class="sub_in">
+                                <li><a href="#">클래스 소개</a></li>
+                                <li><a href="#">클래스 신청</a></li>
+                                <li><a href="#">클래스 갤러리</a></li>
+                                <li><a href="#">클래스 문의</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#product">MD 상품</a>
+                        <div class="sub">
+                            <ul class="sub_in">
+                                <li><a href="#">전체 상품</a></li>
+                                <li><a href="#">세트 상품</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 헤더 메뉴 끝 -->
+
+    <!-- 메인 배너 -->
+    <!-- Swiper -->
+    <div id="main_visual" class="swiper basic">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/banner01.png" alt="메인1"></div>
+            <div class="swiper-slide"><img src="./img/banner2.png" alt="메인2"></div>
+            <div class="swiper-slide"><img src="./img/banner3.png" alt="메인3"></div>
+        </div>
+
+        <!-- 좌우 버튼 <> -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- 하단 블릿 버튼 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 메인 배너 끝 -->
+
+
+    <!-- 브랜드 소개 -->
+    <div id="brand">
+        <div class="brand_text" data-aos="fade-up">
+            <h1>연화헌蓮花軒</h1>
+            <h2>연꽃처럼 고요하고 아름다운 공간</h2>
+
+            <a href="#" class="button motion">브랜드 소개보기</a> <br>
+
+            <span>연화헌蓮花軒</span> <br>
+            <p>연화헌 이란 뜻은</p>
+            <span>'연꽃처럼 고요하고 아름다운 공간'</span>
+            <p>이라는 뜻으로</p>
+            <p>아름답고 평온한 공간에서 <br>
+                한국의 전통 디저트를 즐기며 <br>
+                삶의 휴식을 가지라는 의미를 담고 있습니다.</p>
+            <p>바쁜 현대 사회에서<br>
+                하나의 쉼터로</p>
+            <p>한국의 디저트를 알리는<br>
+                하나의 브랜드로<br>
+                여러분들과 함께 성장하겠습니다.</p>
+        </div>
+    </div>
+    <!-- 브랜드 소개 끝 -->
+
+    <!-- 음식상품 -->
+    <div id="menu">
+        <h1 data-aos="fade-up">음식 상품</h1>
+        <h2 data-aos="fade-up">전통을 표현하는 하나의 방법</h2>
+
+        <div data-aos="fade-up" class="menu_in wrap">
+            <img src="./img/menu01.png" alt="메뉴1">
+
+            <div class="menu_text">
+                <h3>3색 송편</h3>
+                <p>
+                    쌀가루에 고운 색을 내는 천연재료들을 사용하여 한국의 아름다운 색을 표현한 3색<br>
+                    송편입니다. 송편 안에 소는 깨소금으로 참깨, 설탕, 소금을 사용하여 적절한 비율을 통해서<br>
+                    적당한 단맛과 고소함 그리고 약간의 소금을 통해서 단맛을 더욱 돋우어 주었습니다.
+                </p>
+                <p>
+                    아름다운 색감과 귀여운 모양의 송편을 음료와 함께 즐겨보세요.
+                </p>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" class="menu_in wrap">
+            <div class="menu_text right">
+                <h3 class="border_right">곶감 단지</h3>
+                <p>
+                    곶감단지는 곶감 안에 다양한 종류의 견과류를 넣어 단단히 굳힌다음 먹는 음식으로<br>
+                    곶감의 단맛을 견과류로 잡아주면서 건강과 든든한 간식으로도 드실 수 있습니다.
+                </p>
+                <p>
+                    안에 들어가는 견과류에 유자청을 넣어 상큼한 맛을 주면서 입안에 텁텁함을 지울 수 있어 <br>
+                    깔끔한 맛으로 정리되는 한국의 전통간식을 즐겨보세요.
+                </p>
+            </div>
+
+            <img src="./img/menu02.png" alt="메뉴2">
+        </div>
+
+        <div data-aos="fade-up" class="menu_in wrap">
+            <img src="./img/menu03.png" alt="메뉴3">
+
+            <div class="menu_text">
+                <h3>쌀 전병</h3>
+                <p>
+                    쌀 전병은 쌀로만 만들기도 하지만 깨, 들깨, 검은깨, 보리, 조 등 다양한 곡물들을 함께 사용하여 <br>
+                    다양한 맛과 다양한 식감을 표현할 수 있습니다. 각각의 곡물이 내는 본연의 맛에 오븐에 구워 <br>
+                    더욱이 고소한 맛을 낼 수 있도록 하여 곡물의 진정한 달달하고 고소한 맛을 느끼실 수 있습니다.
+                </p>
+                <p>
+                    바삭하면서도 건강한 한국의 간식을 즐겨보세요.
+                </p>
+            </div>
+        </div>
+        <div id="cooking1"></div>
+    </div>
+    <!-- 음식상품 끝 -->
+    <!-- 쿠킹클래스 -->
+    <div id="cooking">
+        <div class="con1_in">
+            <div class="con1_text" data-aos="fade-up">
+                <img src="./img/charm_logo.svg" alt="참한쿠킹 로고">
+
+                <h1>견과엿강정 만들기</h1>
+
+                <p>
+                    전통 디저트의 매력을 직접 경험해보는 시간! <br>
+                    고소한 견과류와 달콤한 조청을 사용해<br>
+                    나만의 강정을 만들어 보세요!
+                </p>
+
+                <table>
+                    <tr>
+                        <th rowspan="2">
+                            체험<br>
+                            일시
+                        </th>
+                        <td> 2025년 09월 27일</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            오전 10시 ~ 오후 1시
+                        </td>
+                    </tr>
+                </table>
+
+                <a href="#">신청하기</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="cooking2">
+        <div class="con2_text">
+            <h3>쿠킹클래스 갤러리</h3>
+            <p>
+                함께 만들었던 우리들의 추억
+            </p>
+
+            <a href="#">갤러리보기</a>
+        </div>
+
+        <div class="con3_text">
+            <h3>쿠킹클래스 문의</h3>
+            <p>
+                어떤점이 궁금하신가요?
+            </p>
+
+            <a href="#">문의하기</a>
+        </div>
+    </div>
+    <!-- 쿠킹클래스 끝 -->
+
+    <!-- MD 상품 -->
+    <div id="product">
+        <h1>MD 상품</h1>
+        <h2>연화헌의 휴식을 나의 공간으로</h2>
+
+        <div class="product_in">
+            <div class="pro">
+                <img src="./img/product01.webp" alt="상품1">
+
+                <p>
+                    연화헌 머그컵
+                </p>
+                <p>
+                    <b>7000원</b>
+                </p>
+                <p class="event1">
+                    첫구매 5% 할인
+                </p>
+            </div>
+
+            <div class="pro">
+                <img src="./img/product02.png" alt="상품2">
+
+                <p>
+                    연화헌 3종 세트
+                </p>
+                <p>
+                    <span class="price">21000원</span><b>18900원</b>
+                </p>
+                <p class="event2">
+                    10% 할인
+                </p>
+            </div>
+
+            <div class="pro">
+                <img src="./img/product03.webp" alt="상품3">
+
+                <p>
+                    연화헌 코스터
+                </p>
+                <p>
+                    <b>4000원</b>
+                </p>
+                <p class="event1">
+                    첫구매 5% 할인
+                </p>
+            </div>
+        </div>
+
+        <a href="#">구매하기</a>
+    </div>
+    <!-- MD 상품 끝 -->
+
+    <!-- sns -->
+    <div id="sns">
+        <div class="sns_in">
+            <h1>SNS</h1>
+            <h2>휴식의 발자국이 남는 곳</h2>
+
+            <ul id="scroller">
+                <li><img src="./img/sns01.png" alt="1"></li>
+                <li><img src="./img/sns02.png" alt="2"></li>
+                <li><img src="./img/sns03.png" alt="3"></li>
+                <li><img src="./img/sns04.png" alt="4"></li>
+                <li><img src="./img/sns05.png" alt="5"></li>
+                <li><img src="./img/sns06.png" alt="6"></li>
+            </ul>
+
+            <a href="https://www.instagram.com/k.e.sook?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">연화헌
+                인스타 보러가기</a>
+        </div>
+
+        <img src="./img/lotus_bg01.png" alt="연꽃1" class="lotus1">
+        <img src="./img/lotus_bg02.png" alt="연꽃2" class="lotus2">
+    </div>
+    <!-- sns 끝 -->
+
+    <!-- 오프라인 매장 -->
+    <div id="offline">
+        <div class="offline_border">
+            <div class="offline_in">
+                <div class="offline_text">
+                    <img src="./img/offline_logo.svg" alt="오프라인 로고">
+
+                    <p>
+                        부산광역시 중구 중앙대로 26
+                    </p>
+                    <p>
+                        여는 시간 : 11:00AM <br>
+                        닫는 시간 : 20:00PM
+                    </p>
+
+                    <a href="https://naver.me/GV2jlQo7">지도이동버튼</a>
+                </div>
+
+                <img src="./img/offline.png" alt="매장사진" class="offline_img">
+            </div>
+        </div>
+    </div>
+    <!-- 오프라인 매장 끝 -->
+
+    <!-- 푸터 -->
+    <div id="footer">
+        <div class="footer_in">
+            <div class="footer_text">
+                <ul class="footer_link">
+                    <li><a href="#">개인청보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a
+                            href="https://www.instagram.com/k.e.sook?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./img/Instagram.png" alt="인스타">
+                        </a></li>
+                    <li><a href="https://x.com/?logout=1754552963886">
+                            <img src="./img/Twitter.png" alt="트위터">
+                        </a></li>
+                    <li><a href="https://www.youtube.com/">
+                            <img src="./img/Youtube.png" alt="유튜브">
+                        </a></li>
+                </ul>
+
+                <p>
+                    CONPANY INFO
+                </p>
+
+                <p>
+                    상호 : 연화헌(YOENHWAHUN)｜ 대표자 : 권유정 <br>
+                    전화 : 010-0000-0000 ｜ 사업자 등록 : 123-45-678910 <br>
+                    영업시간 : 11:00AM ~ 18:00PM <br>
+                    주소 : 부산광역시 중구 중앙대로 26 <br>
+                    문의 및 제안 : yoenhwahun@naver.com
+                </p>
+
+                <p>
+                    Copyright ⓒ연화헌 All rights reserved.
+                </p>
+            </div>
+
+            <img src="./img/footer_logo.svg" alt="푸터 로고">
+        </div>
+    </div>
+    <!-- 푸터 끝 -->
+
+
+
+
+    <!-- js -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="./js/swiper.js"></script>
+    <script src="./js/jquery.simplyscroll.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+</body>
+
+</html>
