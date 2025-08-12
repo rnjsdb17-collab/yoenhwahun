@@ -464,11 +464,11 @@ td {
 
 /* MD 상품 */
 #product {
-    /* width: 1320px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 115px 300px;
+    padding: 115px 0;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -476,7 +476,7 @@ td {
     display: flex;
     justify-content: space-between;
     color: #000;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .pro>p {
@@ -542,7 +542,7 @@ td {
 
 .sns_in {
     width: 1320px;
-    padding: 0 300px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -602,15 +602,17 @@ td {
     left: 50px;
     border-radius: 20px;
     border: 1px solid #A0774A;
+    transform: translateX(-50%);
 }
 
 .offline_in {
     width: 1320px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 25px 250px;
+    padding: 25px 0;
 }
 
 .offline_in>.offline_img {
