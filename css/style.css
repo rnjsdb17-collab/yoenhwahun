@@ -474,7 +474,7 @@ td {
 
 .product_in {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #000;
     margin: 50px 0;
 }
@@ -607,7 +607,7 @@ td {
 .offline_in {
     width: 1320px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     padding: 25px 250px;
