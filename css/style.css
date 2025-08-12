@@ -75,9 +75,9 @@ img {
     display: block;
 }
 
-#wrap{
-overflow: hidden;
-min-width: 1400px;
+#wrap {
+    overflow: hidden;
+    min-width: 1400px;
 }
 
 /* 헤더메뉴 */
@@ -550,6 +550,7 @@ td {
 
 #scroller {
     padding: 50px 0px 70px;
+    overflow: hidden;
 }
 
 .sns_in>a {
@@ -622,7 +623,7 @@ td {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .offline_text>p {
