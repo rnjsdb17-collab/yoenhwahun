@@ -599,8 +599,8 @@ td {
     height: 600px;
     position: absolute;
     top: 50px;
-    left: 50px;
-    /* transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 20px;
     border: 1px solid #A0774A;
 }
