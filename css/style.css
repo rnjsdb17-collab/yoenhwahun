@@ -612,7 +612,8 @@ td {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding: 25px 0;
+    box-sizing: border-box;
+    padding: 75px 0;
 }
 
 .offline_in>.offline_img {
