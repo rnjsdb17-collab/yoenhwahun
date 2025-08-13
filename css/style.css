@@ -473,6 +473,8 @@ td {
 }
 
 .product_in {
+    margin: 0 auto;
+    gap: 30px;
     display: flex;
     justify-content: space-around;
     color: #000;
@@ -595,7 +597,7 @@ td {
 }
 
 .offline_border {
-    width: 1818px;
+    width: 94%;
     height: 600px;
     position: absolute;
     top: 50px;
